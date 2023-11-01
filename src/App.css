@@ -243,7 +243,6 @@ ul {
 .middle-section h2 {
   margin-bottom: 1rem;
   color: #211543;
-  padding-left: 3rem;
 
   font-family: Inter;
   font-size: 40px;
@@ -251,6 +250,11 @@ ul {
   font-weight: 600;
   line-height: normal;
   margin-bottom: 4rem;
+}
+
+
+.how-it-works h2 {
+  padding-left: 3rem !important;
 }
 
 .middle-section p {

@@ -26,7 +26,7 @@ const MiddleSections = () => {
         </div>
       </section>
       {/* 2 */}
-      <section className="middle-section ">
+      <section className="middle-section">
         <div
           className="container-small flex-container middle-section__container
         flex-container--reverse
@@ -49,7 +49,7 @@ const MiddleSections = () => {
       </section>
 
       {/* 3 */}
-      <section className="middle-section ">
+      <section className="middle-section  how-it-works">
         <div
           className="container-small flex-container middle-section__container
        

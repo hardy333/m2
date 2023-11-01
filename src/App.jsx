@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import ManageOrders from './components/ManageOrders'
 import MiddleSections from './components/MiddleSections'
 import Trends from './components/Trends'
-import Navbar from './components/navbar'
+import Navbar from './components/Navbar'
 
 function App() {
 

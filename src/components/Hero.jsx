@@ -1,4 +1,6 @@
 import React from 'react'
+import p1 from "../assets/p1.png"
+
 
 const Hero = () => {
   return (
@@ -17,7 +19,9 @@ const Hero = () => {
             </div>
 
             <div className='box-container'>
-                <div className="box"></div>
+                <div className="box hero-box">
+                  <img src={p1} className='hero-img' alt="" />
+                </div>
 
             </div>
         </div>

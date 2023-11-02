@@ -159,6 +159,20 @@ ul {
   color: var(--color-primary);
 }
 
+.hero-box{
+  position: relative;
+  height: 370px;
+}
+
+.hero-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  /* display: none; */
+  /* border-radius: 30px; */
+}
+
 /* Hero */
 /* Hero */
 /* Hero */

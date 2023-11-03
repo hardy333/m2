@@ -1,26 +1,25 @@
 import './App.css'
-import Features from './components/Features'
-import Footer from './components/Footer'
-import Hero from './components/Hero'
-import ManageOrders from './components/ManageOrders'
-import MiddleSections from './components/MiddleSections'
-import Trends from './components/Trends'
-import Navbar from './components/Navbar'
+import { Route, Routes } from 'react-router-dom'
+import Pricing from './pages/pricing/Pricing'
+import ForVendors from './pages/forVendors/ForVendors'
+import ForRetailers from './pages/forRetailers/ForRetailers'
+import Landing from './pages/landing/Landing'
 
 function App() {
 
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Features />
-      <MiddleSections />
-      <ManageOrders />
-      <Trends />
-      <Footer />
+      
+
+      <Routes>
+        <Route path="/"  element={<Landing />}/>
+        <Route path="/pricing"  element={<Pricing />}/>
+        <Route path="/for-vendors"  element={<ForVendors />}/>
+        <Route path="/for-retailers"  element={<ForRetailers />}/>
+      </Routes>
 
     </div>
-  )
+  ) 
 }
 
 export default App

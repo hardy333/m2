@@ -6,7 +6,7 @@ import youtube from "./youtube.png"
 const Footer = () => {
   return (
     <footer className='footer'>
-        <div className='container-small footer__container'>
+        <div className='container-small footer__container' style={{paddingBottom: "70px"}}>
         <a href="#" className='footer__logo' data-aos="fade-in" >
         <MarlinLogoSvg />
         </a>
@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
          
         </ul>
-        <p style={{paddingBottom: "50px"}} data-aos="fade-in" data-aos-delay={400}>All rights reserved Copyright &copy; Marlin 2023.</p>
+        <p  data-aos="fade-in" data-aos-delay={400}>All rights reserved Copyright &copy; Marlin 2023.</p>
         </div>
     </footer>
   )

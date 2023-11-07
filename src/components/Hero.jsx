@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="hero">
         <div className="container-small hero__container flex-container">
             <div>
-                <h1 data-aos="fade-down">
+                <h1 data-aos="fade-down" data-aos-delay={400}>
                 Simplifying and cheapening <br /> communications between
                   <br />
                 <span style={{color: "var(--color-primary)"}}>
@@ -15,12 +15,12 @@ const Hero = () => {
 
                 </span>
                 </h1>
-                <button className="btn" data-aos="fade-up">Try it out</button>
+                <button className="btn" data-aos="fade-up" data-aos-delay={400}>Try it out</button>
                 
             </div>
 
             <div className='box-container'>
-                <div className="box hero-box" data-aos="fade-left">
+                <div className="box hero-box" data-aos="fade-left" data-aos-delay={400}>
                   <img src={p1} className='hero-img' alt="" />
                 </div>
 

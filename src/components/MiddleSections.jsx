@@ -64,32 +64,32 @@ const MiddleSections = () => {
           <div data-aos="fade-right">
             <h2>How it works?</h2>
             <ul>
-              <li data-aos="fade-right" data-aos-delay={500}>
-                <CheckSvg delay={800} delayInterval={delayInterval} />
+              <li data-aos="fade-right" data-aos-delay={300}>
+                <CheckSvg delay={600} delayInterval={delayInterval} />
                 
                 <div className="p-container"  >
-                  <p className="top" data-aos-off="fade-in" data-aos-off-delay="500">Smooth integration</p>
-                  <p className="bottom" data-aos-off="fade-in" data-aos-off-delay={2*delayInterval} >
+                  <p className="top" data-aos-off="fade-in" >Smooth integration</p>
+                  <p className="bottom" data-aos-off="fade-in"  >
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum{" "}
                   </p>
                 </div>  
               </li>
-              <li data-aos="fade-left" data-aos-delay={500}>
-                <CheckSvg delay={1000} />
+              <li data-aos="fade-left" data-aos-delay={300}>
+                <CheckSvg delay={800} />
                 <div className="p-container"  >
-                  <p className="top" data-aos-off="fade-in" data-aos-off-delay={3*delayInterval}>Smooth integration</p>
-                  <p className="bottom" data-aos-off="fade-in" data-aos-off-delay={4*delayInterval}>
+                  <p className="top" data-aos-off="fade-in" >Smooth integration</p>
+                  <p className="bottom" data-aos-off="fade-in" >
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum{" "}
                   </p>
                 </div>
               </li>
-              <li data-aos="fade-right" data-aos-delay={500}>
-                <CheckSvg delay={1200} />
+              <li data-aos="fade-right" data-aos-delay={300}>
+                <CheckSvg delay={1000} />
                 <div className="p-container"  >
-                  <p className="top" data-aos-off="fade-in" data-aos-off-delay={5*delayInterval}>Smooth integration</p>
-                  <p className="bottom" data-aos-off="fade-in" data-aos-off-delay={6*delayInterval}>
+                  <p className="top" data-aos-off="fade-in" >Smooth integration</p>
+                  <p className="bottom" data-aos-off="fade-in" >
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                     Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum{" "}
                   </p>

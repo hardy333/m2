@@ -10,19 +10,19 @@ const Footer = () => {
         <a href="#" className='footer__logo' data-aos="fade-in" >
         <MarlinLogoSvg />
         </a>
-        <ul className='footer__links' data-aos="fade-in" data-aos-delay={200}>
-            <li>
+        <ul className='footer__links'  >
+            <li data-aos="fade-right" data-aos-delay={200}>
                 <a href="#">
                     <img src={fb} alt="" />
                 </a>
             </li>
-            <li>
+            <li data-aos="fade-in" data-aos-delay={200}>
                 <a href="#">
                 <img src={insta} alt="" />
 
                 </a>
             </li>
-            <li>
+            <li data-aos="fade-left" data-aos-delay={200}>
                 <a href="#">
                 <img src={youtube} alt="" />
 

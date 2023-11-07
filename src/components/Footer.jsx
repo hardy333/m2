@@ -7,10 +7,10 @@ const Footer = () => {
   return (
     <footer className='footer'>
         <div className='container-small footer__container'>
-        <a href="#" className='footer__logo'>
+        <a href="#" className='footer__logo' data-aos="fade-in" >
         <MarlinLogoSvg />
         </a>
-        <ul className='footer__links'>
+        <ul className='footer__links' data-aos="fade-in" data-aos-delay={200}>
             <li>
                 <a href="#">
                     <img src={fb} alt="" />
@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
          
         </ul>
-        <p>Bla bla bla all rights reserved. 2023</p>
+        <p data-aos="fade-in" data-aos-delay={400}>All rights reserved Copyright &copy; Marlin 2023.</p>
         </div>
     </footer>
   )

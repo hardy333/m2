@@ -4,8 +4,15 @@ import Pricing from './pages/pricing/Pricing'
 import ForVendors from './pages/forVendors/ForVendors'
 import ForRetailers from './pages/forRetailers/ForRetailers'
 import Landing from './pages/landing/Landing'
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(() => {
+
+    AOS.init();
+    console.log(AOS)
+    
+  },[])
 
   return (
     <div className="App">

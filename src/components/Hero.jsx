@@ -1,5 +1,5 @@
 import React from 'react'
-import p1 from "../assets/p1.png"
+import p1 from "../assets/p1-min.png"
 
 
 const Hero = () => {
@@ -7,19 +7,20 @@ const Hero = () => {
     <section className="hero">
         <div className="container-small hero__container flex-container">
             <div>
-                <h1>
-                გაამარტივე და დააჩქარე <br />კომუნიკაცია რითეილერებსა   <br />
+                <h1 data-aos="fade-down">
+                Simplifying and cheapening <br /> communications between
+                  <br />
                 <span style={{color: "var(--color-primary)"}}>
-                და ვენდორებს შორის
+                retailers and their vendors
 
                 </span>
                 </h1>
-                <button className="btn">გატესტე ფუნქციონალი</button>
+                <button className="btn" data-aos="fade-up">Try it out</button>
                 
             </div>
 
             <div className='box-container'>
-                <div className="box hero-box">
+                <div className="box hero-box" data-aos="fade-left">
                   <img src={p1} className='hero-img' alt="" />
                 </div>
 

@@ -30,7 +30,7 @@ const Footer = () => {
             </li>
          
         </ul>
-        <p data-aos="fade-in" data-aos-delay={400}>All rights reserved Copyright &copy; Marlin 2023.</p>
+        <p style={{paddingBottom: "50px"}} data-aos="fade-in" data-aos-delay={400}>All rights reserved Copyright &copy; Marlin 2023.</p>
         </div>
     </footer>
   )

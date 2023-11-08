@@ -1,5 +1,5 @@
 import React from 'react'
-import MarlinLogoSvg from './MarlinLogoSvg'
+import MarlinLogoSvg from './svgs/MarlinLogoSvg'
 import fb from "./fb.png"
 import insta from "./insta.png"
 import youtube from "./youtube.png"

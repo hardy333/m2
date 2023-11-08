@@ -18,6 +18,7 @@ body {
   --color-secondary: #a38ddf;
   --color-text-1: #211543;
   --color-text-2: #fff;
+  
   font-family: 'Inter', sans-serif;
 
   color: var(--color-text-1);

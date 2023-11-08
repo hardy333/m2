@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Features from '../../components/Features'
 import Footer from '../../components/Footer'
 import Hero from '../../components/Hero'
@@ -8,6 +8,14 @@ import Trends from '../../components/Trends'
 import Navbar from '../../components/Navbar'
 
 const Landing = () => {
+  useEffect(() => {
+
+    AOS.init({
+      once: true, 
+    });
+    console.log(AOS)
+    
+  },[])
   return (
 
     <>

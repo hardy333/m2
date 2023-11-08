@@ -1,8 +1,32 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Navbar from '../../components/Navbar'
+import ForRetailersHero from './ForRetailersHero';
+import ForRetailersMiddleSections from './ForRetailersMiddleSections';
+import Footer from '../../components/Footer';
+
+// css
+import "./for-retailers.css"
+import Features from '../../components/Features';
 
 const ForRetailers = () => {
+  useEffect(() => {
+
+    AOS.init({
+      once: true, 
+    });
+    console.log(AOS)
+    
+  },[])
+  
   return (
-    <div>ForRetailers</div>
+    <>
+    <Navbar />
+    <ForRetailersHero />
+    <Features bgColor="white"/>
+    <ForRetailersMiddleSections />
+    <Footer />
+    
+    </>
   )
 }
 

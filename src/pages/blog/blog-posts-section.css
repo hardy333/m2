@@ -1,0 +1,13 @@
+.blog-posts-section{
+    padding: 8rem 0;
+}
+
+
+.blog-posts-section__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    row-gap: 8rem;
+
+}
+

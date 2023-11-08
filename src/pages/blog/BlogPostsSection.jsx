@@ -1,0 +1,40 @@
+import React, { useState } from "react";
+import { BsArrowRightShort } from "react-icons/bs";
+import clock from "../../components/clock.png";
+
+const BlogPostsSection = () => {
+  const [blogPosts, setBlogPosts] = useState(Array.from({ length: 6 }).fill(1));
+  return (
+    <div className="blog-posts-section">
+      <div className="container-small  blog-posts-section__container">
+        {blogPosts.map((blogPost) => (
+          <article
+            className="trend-card"
+            data-aos-delay={200}
+            data-aos="fade-in"
+          >
+            <span className="trend-card__lable">Industry news</span>
+            <div className="trend-card__img"></div>
+            <h4>Title Lorem Ipsum Lorem</h4>
+            <p>
+              Body text lorem upsum lorem upsum lorem upsum lorem upsum lorem
+              upsum lorem upsum lorem upsum lorem upsum lorem
+            </p>
+            <p className="trend-card__read-more">
+              Read more <BsArrowRightShort />{" "}
+            </p>
+            <footer>
+              <span>
+                {" "}
+                <img src={clock} alt="" /> 3 min
+              </span>
+              <span>September 9, 2023</span>
+            </footer>
+          </article>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default BlogPostsSection;

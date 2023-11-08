@@ -5,14 +5,10 @@ import ForVendors from './pages/forVendors/ForVendors'
 import ForRetailers from './pages/forRetailers/ForRetailers'
 import Landing from './pages/landing/Landing'
 import { useEffect } from 'react'
+import Blog from './pages/blog/Blog'
 
 function App() {
-  useEffect(() => {
-
-    AOS.init();
-    console.log(AOS)
-    
-  },[])
+ 
 
   return (
     <div className="App">
@@ -23,6 +19,7 @@ function App() {
         <Route path="/pricing"  element={<Pricing />}/>
         <Route path="/for-vendors"  element={<ForVendors />}/>
         <Route path="/for-retailers"  element={<ForRetailers />}/>
+        <Route path="/blog"  element={<Blog />}/>
       </Routes>
 
     </div>

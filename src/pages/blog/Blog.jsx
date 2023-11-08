@@ -1,11 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from "react";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+import BlogPostsSection from "./BlogPostsSection";
+
+// Css
+import "./blog-posts-section.css"
 
 const Blog = () => {
-  return (
-    <div>
-        <h1>This is Blog page</h1>
-    </div>
-  )
-}
+  
+  
+  
+  useEffect(() => {
 
-export default Blog
+    AOS.init({
+      once: true, 
+    });
+    console.log(AOS)
+    
+  },[])
+  
+  
+  return (
+    <>
+      <Navbar />
+      <BlogPostsSection />
+      <Footer />
+    </>
+  );
+};
+
+export default Blog;

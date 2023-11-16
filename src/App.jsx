@@ -6,12 +6,14 @@ import ForRetailers from './pages/forRetailers/ForRetailers'
 import Landing from './pages/landing/Landing'
 import { useEffect } from 'react'
 import Blog from './pages/blog/Blog'
+import ScrollToTop from './components/scrollToTop/ScrollToTop'
 
 function App() {
  
 
   return (
     <div className="App">
+      <ScrollToTop />
       
 
       <Routes>

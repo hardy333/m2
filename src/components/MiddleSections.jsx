@@ -3,6 +3,9 @@ import CheckSvg from "./svgs/CheckSvg";
 import ill2 from "../assets/ill2.png"
 import ill3 from "../assets/ill3.png"
 import ill4 from "../assets/ill4.png"
+import BigDotsSvg from "./svgs/BigDotsSvg";
+import StarsSvg from "./svgs/StarsSvg";
+import SmallDotsSvg from "./svgs/SmallDotsSvg";
 
 const MiddleSections = () => {
   const delayInterval = 300
@@ -115,6 +118,13 @@ const MiddleSections = () => {
               
             </div>
           </div>
+        </div>
+
+        <div style={{background: ""}}>
+
+        <BigDotsSvg />
+        <StarsSvg />
+        <SmallDotsSvg />
         </div>
       </section>
     </>

@@ -263,7 +263,7 @@ ul {
   align-items: center;
 }
 
-.middle-section svg {
+.middle-section ul li svg {
   font-size: 50px;
   width: 40px;
 }

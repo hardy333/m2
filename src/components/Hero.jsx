@@ -16,7 +16,7 @@ const Hero = () => {
 
                 </span>
                 </h1>
-                <button className="btn" data-aos="fade-up" data-aos-delay={400}>Try it out</button>
+                <button style={{padding: "10px 35px", fontSize:"18px"}} className="btn" data-aos="fade-up" data-aos-delay={400}>Try it out</button>
                 
             </div>
 

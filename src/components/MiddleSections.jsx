@@ -107,7 +107,7 @@ const MiddleSections = () => {
               </li>
             </ul>
           </div>
-          <div className="box-container" data-aos="fade-down-left">
+          <div className="box-container" data-aos="fade-left">
             <div className="box" style={{width: "550px", height:"600px"}}>
 
             <img style={{widt: "100%"}} src={ill4} className='hero-img' alt="" />

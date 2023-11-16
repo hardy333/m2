@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from '../../components/Navbar'
-import ForRetailersHero from './ForRetailersHero';
-import ForRetailersMiddleSections from './ForRetailersMiddleSections';
+import ForRetailersHero from './Hero';
+import ForRetailersMiddleSections from './MiddleSections';
 import Footer from '../../components/Footer';
 
 // css

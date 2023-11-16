@@ -7,9 +7,6 @@ import BlogPostsSection from "./BlogPostsSection";
 import "./blog-posts-section.css"
 
 const Blog = () => {
-  
-  
-  
   useEffect(() => {
 
     AOS.init({

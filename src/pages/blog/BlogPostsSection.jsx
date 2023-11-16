@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { BsArrowRightShort } from "react-icons/bs";
-import clock from "../../components/clock.png";
+import clock from "../../assets/clock.png";
 
 const BlogPostsSection = () => {
   const [blogPosts, setBlogPosts] = useState(Array.from({ length: 6 }).fill(1));

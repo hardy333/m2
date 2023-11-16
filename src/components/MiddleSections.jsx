@@ -1,5 +1,8 @@
 import React from "react";
-import CheckSvg from "./CheckSvg";
+import CheckSvg from "./svgs/CheckSvg";
+import ill2 from "../assets/ill2.png"
+import ill3 from "../assets/ill3.png"
+import ill4 from "../assets/ill4.png"
 
 const MiddleSections = () => {
   const delayInterval = 300
@@ -24,7 +27,10 @@ const MiddleSections = () => {
             </p>
           </div>
           <div className="box-container" data-aos="fade-left">
-            <div className="box"></div>
+            <div className="box" style={{width: "550xpx"}}>
+            <img style={{widt: "100%"}} src={ill2} className='hero-img' alt="" />
+
+            </div>
           </div>
         </div>
       </section>
@@ -46,7 +52,11 @@ const MiddleSections = () => {
             </p>
           </div>
           <div className="box-container" data-aos="fade-right">
-            <div className="box"></div>
+            <div className="box" style={{width: "550px"}}>
+            <img style={{widt: "100%"}} src={ill3} className='hero-img' alt="" />
+
+              
+            </div>
           </div>
         </div>
       </section>
@@ -98,7 +108,12 @@ const MiddleSections = () => {
             </ul>
           </div>
           <div className="box-container" data-aos="fade-down-left">
-            <div className="box"></div>
+            <div className="box" style={{width: "550px", height:"600px"}}>
+
+            <img style={{widt: "100%"}} src={ill4} className='hero-img' alt="" />
+
+              
+            </div>
           </div>
         </div>
       </section>

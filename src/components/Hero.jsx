@@ -1,5 +1,6 @@
 import React from 'react'
 import p1 from "../assets/p1-min.png"
+import ill1 from "../assets/ill1.png"
 
 
 const Hero = () => {
@@ -20,8 +21,8 @@ const Hero = () => {
             </div>
 
             <div className='box-container'>
-                <div className="box hero-box" data-aos="fade-left" data-aos-delay={400}>
-                  <img src={p1} className='hero-img' alt="" />
+                <div className="box hero-box" style={{height:"500px"}} data-aos="fade-left" data-aos-delay={400}>
+                  <img style={{widt: "100%"}} src={ill1} className='hero-img' alt="" />
                 </div>
 
             </div>

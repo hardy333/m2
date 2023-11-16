@@ -1,5 +1,5 @@
 import React from "react";
-import clock from "./clock.png";
+import clock from "../assets/clock.png";
 
 //
 import { BsArrowRightShort } from "react-icons/bs";

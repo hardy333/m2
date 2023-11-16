@@ -1,8 +1,8 @@
 import React from 'react'
 import MarlinLogoSvg from './svgs/MarlinLogoSvg'
-import fb from "./fb.png"
-import insta from "./insta.png"
-import youtube from "./youtube.png"
+import fb from "../assets/fb.png"
+import insta from "../assets/insta.png"
+import youtube from "../assets/youtube.png"
 const Footer = () => {
   return (
     <footer className='footer'>

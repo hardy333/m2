@@ -1,6 +1,6 @@
 import React from "react";
 
-const SmallDotsSvg = () => {
+const SmallDotsSvg = ({className}) => {
   return (
     <>
       <svg
@@ -9,6 +9,7 @@ const SmallDotsSvg = () => {
         viewBox="0 0 259 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className={className}
       >
         <g opacity="0.2">
           <path

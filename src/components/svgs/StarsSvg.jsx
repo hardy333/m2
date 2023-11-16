@@ -1,6 +1,6 @@
 import React from "react";
 
-const StarsSvg = () => {
+const StarsSvg = ({className}) => {
   return (
     <>
       <svg
@@ -9,6 +9,7 @@ const StarsSvg = () => {
         viewBox="0 0 71 59"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className={className}
       >
         <g opacity="0.3">
           <path

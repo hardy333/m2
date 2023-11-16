@@ -1,6 +1,8 @@
 import React from "react";
 
-const BigDotsSvg = () => {
+const BigDotsSvg = ({className}) => {
+    console.log(className)
+    
   return (
     <>
       <svg
@@ -9,7 +11,8 @@ const BigDotsSvg = () => {
         viewBox="0 0 467 189"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        
+        className={className}
+
       >
         <g opacity="0.5">
           <path

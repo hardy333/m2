@@ -2,10 +2,12 @@ import React from 'react'
 import connect from "../assets/connect.png"
 import optimize from "../assets/optimize.png"
 import analize from "../assets/analize.png"
+import SmallDotsSvg from './svgs/SmallDotsSvg'
 
 const Features = ({bgColor=null}) => {
   return (
     <section className="features" style={{background: bgColor}}>
+        <SmallDotsSvg className="features-svg-small-dots"/>
         <div className="container-small features__container">
             <div className="feature-card" >
                     <div className="feature-card-circle" style={{background: bgColor ? "rgba(64, 106, 255, 0.09)        ": "white"}} data-aos="fade-down">

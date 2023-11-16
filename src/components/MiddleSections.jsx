@@ -121,10 +121,10 @@ const MiddleSections = () => {
         </div>
 
         <div style={{background: ""}}>
-
+{/* 
         <BigDotsSvg />
         <StarsSvg />
-        <SmallDotsSvg />
+        <SmallDotsSvg /> */}
         </div>
       </section>
     </>

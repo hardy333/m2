@@ -38,9 +38,11 @@ const Hero = () => {
           <button
             style={{ padding: "12px 60px", fontSize: "18px" }}
             className="btn"
-            data-aos="fade-up"
-            data-aos-delay={400}
+            // data-aos="fade-up"
+            // data-aos-delay={400}
           >
+
+            <div className="bg"></div>
             Try it out
           </button>
         </div>

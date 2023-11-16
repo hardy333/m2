@@ -1,38 +1,70 @@
-import React from 'react'
-import p1 from "../assets/p1-min.png"
-import ill1 from "../assets/ill1.png"
-import BigDotsSvg from './svgs/BigDotsSvg'
-import StarsSvg from './svgs/StarsSvg'
-
+import React from "react";
+import p1 from "../assets/p1-min.png";
+import ill1 from "../assets/ill1.png";
+import BigDotsSvg from "./svgs/BigDotsSvg";
+import StarsSvg from "./svgs/StarsSvg";
+import WordLineDecorationSvg from "./svgs/WordLineDecorationSvg";
 
 const Hero = () => {
   return (
     <section className="hero">
-        <div className="container-small hero__container flex-container">
-            <div>
-                <h1 data-aos="fade-down" data-aos-delay={400}>
-                Simplifying and cheapening <br /> communications between
-                  <br />
-                <span style={{color: "var(--color-primary)"}}>
-                retailers and their vendors
+      <div className="container-small hero__container flex-container">
+        <div>
+          <h1 data-aos="fade-down" data-aos-delay={400}>
+            <span className="hero-decorated-word" style={{paddingLeft: "0px"}}>
+            <WordLineDecorationSvg className="hero-decorated-word-svg" />
 
-                </span>
-                </h1>
-                <button style={{padding: "12px 60px", fontSize:"18px"}} className="btn" data-aos="fade-up" data-aos-delay={400}>Try it out</button>
-                
-            </div>
+            Simplifying
+            and cheapening 
+              </span>
 
-            <div className='box-container'>
-                <div className="box hero-box" style={{height:"500px"}} data-aos="fade-left" data-aos-delay={400}>
-                  <BigDotsSvg className="hero-svg-big-dotts" />
-                  <StarsSvg className="hero-svg-stars"/>
-                  <img style={{widt: "100%"}} src={ill1} className='hero-img' alt="" />
-                </div>
+            
+              {/* Simplifying
+            and cheapening  */}
+            <br /> communications between
+            <br />
+            <span style={{ color: "var(--color-primary)" }}>
+              retailers and their vendors
+            {/* <span className="hero-decorated-word" style={{paddingLeft: "20px"}}>
+            <WordLineDecorationSvg className="hero-decorated-word-svg" />
 
-            </div>
+              
+               vendors
+              
+            </span> */}
+
+            </span>
+          </h1>
+          <button
+            style={{ padding: "12px 60px", fontSize: "18px" }}
+            className="btn"
+            data-aos="fade-up"
+            data-aos-delay={400}
+          >
+            Try it out
+          </button>
         </div>
-    </section>
-  )
-}
 
-export default Hero
+        <div className="box-container">
+          <div
+            className="box hero-box"
+            style={{ height: "500px" }}
+            data-aos="fade-left"
+            data-aos-delay={400}
+          >
+            <BigDotsSvg className="hero-svg-big-dotts" />
+            <StarsSvg className="hero-svg-stars" />
+            <img
+              style={{ widt: "100%" }}
+              src={ill1}
+              className="hero-img"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;

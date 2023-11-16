@@ -7,7 +7,8 @@ import SmallDotsSvg from './svgs/SmallDotsSvg'
 const Features = ({bgColor=null}) => {
   return (
     <section className="features" style={{background: bgColor}}>
-        <SmallDotsSvg className="features-svg-small-dots"/>
+        <SmallDotsSvg className="features-svg-small-dots-left"/>
+        <SmallDotsSvg className="features-svg-small-dots-right"/>
         <div className="container-small features__container">
             <div className="feature-card" >
                     <div className="feature-card-circle" style={{background: bgColor ? "rgba(64, 106, 255, 0.09)        ": "white"}} data-aos="fade-down">

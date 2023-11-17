@@ -4,6 +4,7 @@ import ill1 from "../assets/ill1.png";
 import BigDotsSvg from "./svgs/BigDotsSvg";
 import StarsSvg from "./svgs/StarsSvg";
 import WordLineDecorationSvg from "./svgs/WordLineDecorationSvg";
+import { BsFillPatchCheckFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -35,6 +36,16 @@ const Hero = () => {
 
             </span>
           </h1>
+          <p style={{marginBottom: "25px", fontSize: "16px", lineHeight: "1.3"}}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, sed? Quisquam sunt sit iure ullam unde labore ab dolores sequi nulla fugiat tempore quis perferendis, modi, temporibus doloremque. Nobis, sequi.
+          </p>
+          <div>
+            <ul className="hero-check-list">
+              <li><BsFillPatchCheckFill /> Automate You Job</li>
+              <li><BsFillPatchCheckFill /> Communicate With Ease</li>
+              <li><BsFillPatchCheckFill /> Analize Data</li>
+            </ul>
+          </div>
           <button
             style={{ padding: "12px 60px", fontSize: "18px" }}
             className="btn"

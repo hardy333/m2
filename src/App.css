@@ -217,7 +217,7 @@ ul {
   font-weight: 300;
   line-height: 1.3;
 
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   
 }
 
@@ -290,6 +290,19 @@ ul {
     opacity: 0;
 
   }
+}
+
+.hero-check-list{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-check-list li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 /* Features */

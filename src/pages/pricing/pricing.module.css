@@ -79,8 +79,8 @@
 .price-cards {
     display: flex;
     justify-content: center;
-    margin-top: 300px;
-    margin-bottom: 100px;
+    margin-top: 250px;
+    margin-bottom: 80px;
     align-items: center;
 
 }
@@ -189,6 +189,7 @@ line-height: normal;
 .choose-plan__container {
   display: flex;
   justify-content: space-between;
+  max-width: 1000px;
 }
 
 .choose-plan h2 {

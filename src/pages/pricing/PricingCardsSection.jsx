@@ -5,7 +5,7 @@ import Switch from "react-switch";
 
 const PricingCardsSection = () => {
   const [isChecked1, setIsChecked1] = useState(false);
-  const [isChecked2, setIsChecked2] = useState(false);
+  const [isChecked2, setIsChecked2] = useState(true);
 
   const handleChange1 = () => {
     setIsChecked1(!isChecked1);

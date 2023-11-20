@@ -1,0 +1,54 @@
+.marlin-text .cls-1 {
+    fill: transparent;
+ 
+    stroke: var(--color-text-1);
+    stroke-width: 1px;
+    animation: m-anim 1s ease-out forwards;
+}
+
+
+#marlin-letter-1{
+    stroke-dasharray: 527;
+    stroke-dashoffset: 527;
+
+}
+#marlin-letter-2{
+    stroke-dasharray: 267;
+    stroke-dashoffset: 267;
+
+}
+#marlin-letter-3{
+    stroke-dasharray: 143;
+    stroke-dashoffset: 143;
+
+}
+#marlin-letter-4{
+    stroke-dasharray: 174;
+    stroke-dashoffset: 174;
+
+}
+#marlin-letter-5{
+    stroke-dasharray: 122;
+    stroke-dashoffset: 122;
+
+}
+#marlin-letter-6{
+    stroke-dasharray: 238;
+    stroke-dashoffset: 238;
+
+}
+
+@keyframes m-anim {
+    90%{
+        fill: transparent;
+    }
+    
+    100%{
+        fill: var(--color-text-1);
+
+    stroke-dashoffset: 0;
+
+
+    }
+    
+}

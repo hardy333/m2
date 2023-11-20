@@ -1,4 +1,5 @@
 import './App.css'
+import "./animations.css"
 import { Route, Routes } from 'react-router-dom'
 import Pricing from './pages/pricing/Pricing'
 import ForVendors from './pages/forVendors/ForVendors'

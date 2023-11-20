@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import clock from "../../assets/clock.png";
+import { IoIosArrowForward } from "react-icons/io";
 
 const BlogPostsSection = () => {
   const [blogPosts, setBlogPosts] = useState(Array.from({ length: 6 }).fill(1));
   return (
+    
     <div className="blog-posts-section">
       <div className="container-small  blog-posts-section__container">
         {blogPosts.map((blogPost) => (
@@ -32,6 +34,13 @@ const BlogPostsSection = () => {
             </footer>
           </article>
         ))}
+      </div>
+      <div className="container-small blog-pagination">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span><IoIosArrowForward/></span>
       </div>
     </div>
   );

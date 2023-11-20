@@ -4,22 +4,28 @@ import Footer from "../../components/Footer";
 import BlogPostsSection from "./BlogPostsSection";
 
 // Css
-import "./blog-posts-section.css"
+import "./blog.css";
+import "./blog-posts-section.css";
+import BlogShowcase from "./Showcase";
+import BigBlogPost from "./BigBlogPost";
+import BlogFilters from "./BlogFilters";
 
 const Blog = () => {
   useEffect(() => {
-
     AOS.init({
-      once: true, 
+      once: true,
     });
-    console.log(AOS)
-    
-  },[])
-  
-  
+    console.log(AOS);
+  }, []);
+
   return (
     <>
       <Navbar />
+      <BlogShowcase />
+      <BlogFilters />
+      <div className="container-small">
+        <BigBlogPost />
+      </div>
       <BlogPostsSection />
       <Footer />
     </>

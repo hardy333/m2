@@ -1,4 +1,5 @@
 import React from 'react'
+import classes from "./pricing.module.css";
 
 const PricingSwitchSection = () => {
   return (

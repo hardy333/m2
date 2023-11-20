@@ -1,0 +1,9 @@
+.simple-cta-section{
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    border: 1px solid red !important;
+}

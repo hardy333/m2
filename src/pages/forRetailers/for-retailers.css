@@ -23,3 +23,24 @@
 .for-retailers-hero span {
   font-weight: 600;
 }
+
+
+
+.simple-cta-section{
+  padding: 4rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.simple-cta-section .btn{
+  color: #FFF;
+
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+padding: 10px 30px;
+}

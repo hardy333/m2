@@ -10,6 +10,7 @@ import Features from '../../components/Features';
 
 const ForRetailers = () => {
   useEffect(() => {
+    // window.location.reload()
 
     AOS.init({
       once: true, 
@@ -24,6 +25,9 @@ const ForRetailers = () => {
     <ForRetailersHero />
     <Features bgColor="white"/>
     <ForRetailersMiddleSections />
+    <section className="simple-cta-section">
+      <button className="btn">Book a call</button>
+    </section>
     <Footer />
     
     </>

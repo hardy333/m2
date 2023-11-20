@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/"  element={<Landing />}/>
         <Route path="/pricing"  element={<Pricing />}/>
-        <Route path="/for-vendors"  element={<ForVendors />}/>
+        <Route path="/for-vendors"  element={<ForRetailers />}/>
         <Route path="/for-retailers"  element={<ForRetailers />}/>
         <Route path="/blog"  element={<Blog />}/>
       </Routes>

@@ -162,8 +162,13 @@ ul {
   font-size: 18px;
 }
 
+.navbar__list a.active{
+  color: var(--color-primary);
+}
+
 .navbar__list a:hover {
   color: var(--color-primary);
+  text-decoration: underline !important;
 }
 
 .hero-box{
@@ -643,6 +648,19 @@ transform: translate(0, -50%);
   align-items: center;
   gap: 1rem;
   cursor: pointer;
+}
+
+.trend-card__read-more:hover{
+  color: #5f0ad5 !important;
+
+}
+
+.trend-card__read-more svg{
+  transition: transform 0.3s ease;
+}
+
+.trend-card__read-more:hover svg{
+  transform: translate(10px, 0);
 }
 
 

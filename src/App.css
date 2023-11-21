@@ -88,6 +88,11 @@ ul {
   background-color: var(--color-primary);
 }
 
+.btn--big{
+  font-size: 20px;
+  padding: 12px 35px;
+}
+
 /* Home Logo */
 .home-link {
   display: flex;

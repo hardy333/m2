@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import classes from "./pricing.module.css";
 import PricingCardsSection from "./PricingCardsSection";
+import AutomateSection from "../blog/AutomateSection";
 
 const Pricing = () => {
   useEffect(() => {
@@ -16,7 +17,7 @@ const Pricing = () => {
     <>
       <Navbar />
       <section className={classes.hero}>
-        <div className={`container ${classes.hero__container}`}>
+        <div className={`container-small ${classes.hero__container}`}>
           <h1>Pricing plans that suit you</h1>
           <p>
             Choose either monthly or yearly subscription and enjoy <br /> continuous
@@ -29,9 +30,11 @@ const Pricing = () => {
       <section className={classes["choose-plan"]}>
         <div className={`container-small ${classes["choose-plan__container"]}`}>
           <h2>Difficulties choosing a plan?</h2>
-          <button className="btn">Book a call</button>
+          <button className="btn btn--outline" >Book a call</button>
         </div>
       </section>
+
+      <AutomateSection />
       <Footer />
     </>
   );

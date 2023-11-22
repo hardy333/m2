@@ -9,7 +9,7 @@ const Hero = () => {
          
             See all your vendors here and <br /> bla bla bla lorem upsum
           </h1>
-          <button className="btn" data-aos="fade-up" data-aos-delay={400}>
+          <button className="btn btn--big" data-aos="fade-up" data-aos-delay={400}>
             Test Demo
           </button>
 

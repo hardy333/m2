@@ -7,34 +7,51 @@
 }
 
 
-#marlin-letter-1{
-    stroke-dasharray: 527;
-    stroke-dashoffset: 527;
+#marlin-letter-m{
+    stroke-dasharray: 529;
+    stroke-dashoffset: 529;
 
 }
-#marlin-letter-2{
+#marlin-letter-a{
     stroke-dasharray: 267;
     stroke-dashoffset: 267;
 
 }
-#marlin-letter-3{
+#marlin-letter-r{
     stroke-dasharray: 143;
     stroke-dashoffset: 143;
 
 }
-#marlin-letter-4{
+
+#marlin-letter-l{
     stroke-dasharray: 174;
     stroke-dashoffset: 174;
 
 }
-#marlin-letter-5{
+
+
+#marlin-letter-i-top{
+    stroke-dasharray: 39;
+    stroke-dashoffset: 39;
+
+}
+
+#marlin-letter-i-bottom{
     stroke-dasharray: 122;
     stroke-dashoffset: 122;
 
 }
+
+#marlin-letter-n{
+    /* stroke-dasharray: 122;
+    stroke-dashoffset: 122; */
+    /* stroke-dasharray: 238;
+    stroke-dashoffset: 238; */
+
+}
+
 #marlin-letter-6{
-    stroke-dasharray: 238;
-    stroke-dashoffset: 238;
+ 
 
 }
 

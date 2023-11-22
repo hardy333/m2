@@ -1,19 +1,41 @@
-import React from 'react'
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 
 const BlogFilters = () => {
+  const [arr] = useState([
+    "All",
+    " Success cases",
+    " Industry news",
+    " Good to know",
+    " Tech and more",
+  ]);
+
+  const [selectedIndex, setSelectedIndex] = useState(2);
+
+  const handleClick = (text, index) => {
+    setSelectedIndex(index);
+  };
+
   return (
     <section className="blog-filters">
-      <div className='container-small blog-filters__container'>
+      <div className="container-small blog-filters__container">
         <ul>
-          <li>All</li>
-          <li>Success cases</li>
-          <li>Industry news</li>
-          <li>Good to know</li>
-          <li>Tech and more</li>
+          {arr.map((text, index) => (
+            <li onClick={() => handleClick(text, index)}>
+              {index === selectedIndex ? (
+                <motion.span
+                  layoutId="underline"
+                  className="blog-filter-line"
+                  layout
+                ></motion.span>
+              ) : null}
+              {text}
+            </li>
+          ))}
         </ul>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default BlogFilters
+export default BlogFilters;

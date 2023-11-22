@@ -76,6 +76,12 @@
 /* Cards */
 /* Cards */
 
+.hello .there{
+    color:red;
+    color:yellow;
+    color: green;
+}
+
 .price-cards {
     display: flex;
     justify-content: center;

@@ -9,6 +9,9 @@ import { useEffect } from 'react'
 import Blog from './pages/blog/Blog'
 import ScrollToTop from './components/scrollToTop/ScrollToTop'
 
+// css
+import "./ripple.css"
+
 function App() {
  
 

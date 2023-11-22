@@ -100,9 +100,72 @@ const PriceCard = ({ priceNumber, strokeColor, className, isMonthly }) => {
 
   const opacityColor = strokeColor + "55";
 
+
+  const handleClick = (e, strokeColor) => {
+     // Stoping event bubbling in case user clicked ripple element which is 
+    // a child of element which also is element with ripple effect. 
+    e.stopPropagation();
+    
+    // Element in which we will create ripple effect. 
+    const element = e.currentTarget;
+
+
+    element.style.position = "relative";
+    // element.style.zIndex = "0";
+    // element.style.overflow = "hidden";
+
+    // Getting elements left and top position relative to viewport.
+    const {top: elementTop, left: elementLeft } = element.getBoundingClientRect();
+
+    // Getting click event's x and y coordinates.
+    const top = e.clientY;
+    const left = e.clientX;
+
+    // calculating click event's x and y coordinate relative to element.
+    // this x and y will be ripple elements center position's coordinates relative to parent element which in this case is "element".
+    const posY = top - elementTop;
+    const posX = left - elementLeft;
+
+
+    const ripple = document.createElement("div");
+    ripple.style.top = posY + "px";
+    ripple.style.left = posX + "px";
+    let COLOR = strokeColor;
+
+    if(element.classList.contains("card--cyan")){
+        COLOR = "hsl(180, 62%, 55%)";
+    }
+    if(element.classList.contains("card--red")){
+        COLOR = "hsl(0, 78%, 62%)";
+    }
+    if(element.classList.contains("card--blue")){
+        COLOR = "hsl(212, 86%, 64%)";
+    }
+
+    if(element.classList.contains("card--orange")){
+        COLOR = "hsl(34, 97%, 64%)";
+    }
+    ripple.style.backgroundColor = COLOR;
+
+    
+    
+    ripple.classList.add("ripple");
+    
+    ripple.addEventListener("animationend", handleRippleAnimationEnd);
+
+    element.appendChild(ripple);
+
+  }
+
+  const handleRippleAnimationEnd = (e) => {
+    e.currentTarget.removeEventListener("animationend", handleRippleAnimationEnd);
+    e.currentTarget.remove();
+}
+
   return (
     <>
       <article
+      onClick={(e) => handleClick(e, strokeColor)}
         className={`${classes["price-card"]} ${classes[c]}`}
         style={{ border: `5px solid ${strokeColor}` }}
       >

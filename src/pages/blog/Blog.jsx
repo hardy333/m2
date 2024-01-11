@@ -27,6 +27,7 @@ const Blog = () => {
         <BigBlogPost />
       </div>
       <BlogPostsSection />
+
       <Footer />
     </>
   );
